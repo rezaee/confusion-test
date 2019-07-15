@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Http, Response } from '@angular/http'; 
-import 'rxjs/add/observable/throw';
+import { throwError } from 'rxjs';
 
 @Injectable() export class ProcessHTTPMsgService {
 

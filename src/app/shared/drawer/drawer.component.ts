@@ -5,7 +5,7 @@ import { getString, setString } from "app-settings";
 
 @Component({ 
     selector: 'drawer-content', 
-    templateUrl: './shared/drawer/drawer.component.html'
+    templateUrl: './drawer.component.html'
  })
 export class DrawerComponent {
     constructor(private fonticon: TNSFontIconService) { }
